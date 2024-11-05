@@ -54,6 +54,6 @@ _end:
   syscall
 
 SECTION .data
-current: DD 1
+current: DD 0
 sum: DD 0
 currentMsg: DB "Sum: %d", 0x0A, 0 ; 0xA is the newline
